@@ -13,7 +13,7 @@ from asyncio import sleep
 from PIL import Image
 import os, time
 from config import Config
-LOG_CHANNEL_ID = Config.LOG_CHANNEL
+LOG_CHANNEL_ID = Config.BIN_CHANNEL
 
 @Client.on_message(filters.private & (filters.document | filters.audio | filters.video))
 async def rename_start(client, message):
