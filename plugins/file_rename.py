@@ -27,7 +27,7 @@ async def rename_start(client, message):
         return await message.reply_photo(
                 photo="https://envs.sh/Som.jpg",
                 caption=f"<b>ᴛʜɪs ʙᴏᴛ ɪs ɴᴏᴛ sᴜᴘᴘᴏʀᴛ 4ɢʙ ᴘʟᴇᴀsᴇ ᴜsᴇ ᴏᴜʀ ᴅᴇᴅɪᴄᴀᴛᴇᴅ 4ɢʙ ʙᴏᴛ ✨</b>", reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("no", url='t.me/')]])
+                InlineKeyboardButton("no", url='t.me/')]]))
 
     try:
         await message.reply_text(
