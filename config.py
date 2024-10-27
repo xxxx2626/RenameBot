@@ -33,7 +33,7 @@ class Txt(object):
 
 ʙʏ : <a href=https://t.me/AV_BOTz_UPDATE>**ᴀᴠ ʙᴏᴛᴢ ᴜᴘᴅᴀᴛᴇ**</a></b>"""
     
-    ABOUT_TXT = """<b>╔═══❰ <a href='https://t.me/AV_ALLSAVEDVIDEO_BOT'>ᴀʟʟ sᴀᴠᴇᴅ ᴠɪᴅᴇᴏ</a> ❱═❍
+    ABOUT_TXT = """<b>╔═══❰ <a href='https://t.me/AV_RENAME_BOT'>ᴀᴠ ʀᴇɴᴀᴍᴇ ʙᴏᴛ</a> ❱═❍
 ║╭━━━━━━━━━━━━━━➣
 ║┣⪼🤖ᴍʏ ɴᴀᴍᴇ : {}
 ║┣⪼👦ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/AV_OWNER_BOT'>ᴀᴠ ᴄʜᴀᴛ ᴏᴡɴᴇʀ</a>
