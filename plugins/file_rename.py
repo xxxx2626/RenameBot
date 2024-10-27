@@ -25,7 +25,7 @@ async def rename_start(client, message):
     filename = file.file_name  
     if file.file_size > 2000 * 1024 * 1024:
         return await message.reply_photo(
-                photo="https://envs.sh/Som.jpg",
+                photo="https://envs.sh/ArT.jpg",
                 caption=f"<b>ᴛʜɪs ʙᴏᴛ ɪs ɴᴏᴛ sᴜᴘᴘᴏʀᴛ 4ɢʙ ᴘʟᴇᴀsᴇ ᴜsᴇ ᴏᴜʀ ᴅᴇᴅɪᴄᴀᴛᴇᴅ 4ɢʙ ʙᴏᴛ ✨</b>", reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton("ᴀᴠ ʀᴇɴᴀᴍᴇ ᴘʀᴏ ʙᴏᴛ", url='t.me/AV_RENAME_PRO_BOT')]]))
 
