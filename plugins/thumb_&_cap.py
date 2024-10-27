@@ -45,4 +45,3 @@ async def addthumbs(client, message):
     await db.set_thumbnail(message.from_user.id, file_id=message.photo.file_id)                
     await mkn.edit("✅️ __**Tʜᴜᴍʙɴᴀɪʟ Sᴀᴠᴇᴅ**__")
 
-
