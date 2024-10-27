@@ -24,7 +24,9 @@ async def rename_start(client, message):
     file = getattr(message, message.media.value)
     filename = file.file_name  
     if file.file_size > 2000 * 1024 * 1024:
-        return await message.reply_text("**ᴛʜɪs ʙᴏᴛ ɪs ɴᴏᴛ sᴜᴘᴘᴏʀᴛ 4ɢʙ ᴘʟᴇᴀsᴇ ᴜsᴇ ᴏᴜʀ ᴅᴇᴅɪᴄᴀᴛᴇᴅ 4ɢʙ ʙᴏᴛ ✨**")
+        return await message.reply_photo(
+                photo="https://envs.sh/Som.jpg",
+                caption=f"<b>ᴛʜɪs ʙᴏᴛ ɪs ɴᴏᴛ sᴜᴘᴘᴏʀᴛ 4ɢʙ ᴘʟᴇᴀsᴇ ᴜsᴇ ᴏᴜʀ ᴅᴇᴅɪᴄᴀᴛᴇᴅ 4ɢʙ ʙᴏᴛ ✨</b>", reply_markup=InlineKeyboardMarkup(btn))
 
     try:
         await message.reply_text(
