@@ -173,7 +173,7 @@ async def doc(bot, update):
             os.remove(ph_path)
         return await ms.edit(f" Eʀʀᴏʀ {e}")
     
-    
+   
     await ms.delete() 
     os.remove(file_path) 
     if ph_path: os.remove(ph_path)
