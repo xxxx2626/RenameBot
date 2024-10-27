@@ -35,12 +35,17 @@ class Txt(object):
 
     ILLEGAL_TXT = """<b>ʜᴇʀᴇ ɪꜱ ᴏᴜʀ ᴀʟʟ ʙᴏᴛ ʟɪꜱᴛ</b>"""
     
-    ABOUT_TXT = """<b>╭───────────⍟
-├🤖 ᴍy ɴᴀᴍᴇ : {}
-├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/codeflix_bots>**ᴄᴏᴅᴇғʟɪx ʙᴏᴛs**</a> 🕷
-├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : **ᴍɪᴋᴇʏ**
-╰───────────────⍟ </b>"""
-
+    ABOUT_TXT = """<b>╔═══❰ <a href='https://t.me/AV_ALLSAVEDVIDEO_BOT'>ᴀʟʟ sᴀᴠᴇᴅ ᴠɪᴅᴇᴏ</a> ❱═❍
+║╭━━━━━━━━━━━━━━➣
+║┣⪼🤖ᴍʏ ɴᴀᴍᴇ : {}
+║┣⪼👦ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/AV_OWNER_BOT'>ᴀᴠ ᴄʜᴀᴛ ᴏᴡɴᴇʀ</a>
+║┣⪼❣️ᴜᴘᴅᴀᴛᴇ : <a href=https://t.me/AV_BOTz_UPDATE>ᴀᴠ ʙᴏᴛᴢ</a>
+║┣⪼🗣️ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 3</a>
+║┣⪼📚ʟɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a> 
+║┣⪼🗒️ᴠᴇʀsɪᴏɴ : v2.01.1
+║╰━━━━━━━━━━━━━━➣
+╚═════════════════❍ </b>"""
+    
     HELP_TXT = """
 🌌 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Tʜᴜᴍʙɴɪʟᴇ</u></b>
   
