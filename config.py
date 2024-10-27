@@ -26,12 +26,12 @@ class Txt(object):
     # part of text configuration
     START_TXT = """<b>Hᴀɪ {} 👋,
     
-➻ Tʜɪs Is Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ ɪʟʟᴇɢᴀʟ Rᴇɴᴀᴍᴇ Bᴏᴛ.
-➻ Usɪɴɢ Tʜɪs Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ & Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oꜰ Yᴏᴜʀ Fɪʟᴇ.
-➻ Yᴏᴜ Cᴀɴ Aʟsᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ & Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ.
-➻ Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ.
+➻ This Is An Advanced And Yet Powerful Rename Bot.
+➻ Using This Bot You Can Rename And Change Thumbnail Of Your Files.
+➻ You Can Also Convert Video To File And File To Video.
+➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
 
-💺 Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Codeflix_Bots 💞</b>"""
+ʙʏ : <a href=https://t.me/AV_BOTz_UPDATE>**ᴀᴠ ʙᴏᴛᴢ ᴜᴘᴅᴀᴛᴇ**</a></b>"""
 
     ILLEGAL_TXT = """<b>ʜᴇʀᴇ ɪꜱ ᴏᴜʀ ᴀʟʟ ʙᴏᴛ ʟɪꜱᴛ</b>"""
     
