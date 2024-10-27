@@ -32,8 +32,6 @@ class Txt(object):
 ➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
 
 ʙʏ : <a href=https://t.me/AV_BOTz_UPDATE>**ᴀᴠ ʙᴏᴛᴢ ᴜᴘᴅᴀᴛᴇ**</a></b>"""
-
-    ILLEGAL_TXT = """<b>ʜᴇʀᴇ ɪꜱ ᴏᴜʀ ᴀʟʟ ʙᴏᴛ ʟɪꜱᴛ</b>"""
     
     ABOUT_TXT = """<b>╔═══❰ <a href='https://t.me/AV_ALLSAVEDVIDEO_BOT'>ᴀʟʟ sᴀᴠᴇᴅ ᴠɪᴅᴇᴏ</a> ❱═❍
 ║╭━━━━━━━━━━━━━━➣
@@ -65,9 +63,7 @@ Exᴀᴍᴩʟᴇ:- /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 
 ✏️ <b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b>
 
-<b>•»</b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ].           
-
-ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/IllegalDeveloperBot>𝘽𝙤𝙩 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧</a>
+<b>•»</b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ].</a>
 """
 
     PROGRESS_BAR = """<b>\n
