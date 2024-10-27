@@ -9,13 +9,11 @@ async def start(client, message):
     user = message.from_user
     await db.add_user(client, message)                
     button = InlineKeyboardMarkup([[
-        InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
+        InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/AV_BOTz_UPDATE'),
+        InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/AV_SUPPORT_GROUP')
         ],[
-        InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/codeflix_bots'),
-        InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/weebs_support')
-        ],[
-        InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
-        InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
+        InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help'),
+        InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about')
     ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
@@ -31,13 +29,11 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup([[
-                InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
-                ],[
-                InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/codeflix_bots'),
-                InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/weebs_support')
-                ],[
-                InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
-                InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
+                InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/AV_BOTz_UPDATE'),
+        InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/AV_SUPPORT_GROUP')
+        ],[
+        InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help'),
+        InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about')
             ]])
         )
     elif data == "help":
@@ -46,29 +42,10 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("≛ ᴏᴡɴᴇʀ", url="https://t.me/sewxiy")
+                InlineKeyboardButton("≛ ᴏᴡɴᴇʀ", url="https://t.me/bot_owner26")
                 ],[
-                InlineKeyboardButton("🧐 ʀᴇᴘᴏʀᴛ ᴀʙᴜꜱᴇ", url='https://t.me/weebs_support')
-                ],[
-                InlineKeyboardButton("✗ Cʟᴏꜱᴇ", callback_data = "close"),
-                InlineKeyboardButton("« Bᴀᴄᴋ", callback_data = "start")
-            ]])            
-        )
-    elif data == "codeflix":
-        await query.message.edit_text(
-            text=Txt.ILLEGAL_TXT.format(client.mention),
-            disable_web_page_preview = True,
-            reply_markup=InlineKeyboardMarkup([[
-                #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("ᴍᴏᴠɪᴇ ʙᴏᴛ¹", url="https://t.me/lucy_filter_bot"),
-                InlineKeyboardButton("ᴀɪ ʙᴏᴛ²", url="https://t.me/daisyprobot")           
-                ],[
-                InlineKeyboardButton("sᴇʀɪᴇs ғʟɪx", url="https://t.me/seriesflix_original")
-                ],[
-                InlineKeyboardButton("ᴍᴏᴠɪᴇ ғʟɪx", url="https://t.me/movieflix_original")
-                ],[
-                InlineKeyboardButton("✗ Cʟᴏꜱᴇ", callback_data = "close"),
-                InlineKeyboardButton("« Bᴀᴄᴋ", callback_data = "start")
+                InlineKeyboardButton("« Bᴀᴄᴋ", callback_data = "start"),
+                InlineKeyboardButton("✗ Cʟᴏꜱᴇ", callback_data = "close")
             ]])            
         )
     elif data == "about":
@@ -77,25 +54,11 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("ᴏᴜʀ ʙᴏᴛꜱ", callback_data = "codeflix")
+                InlineKeyboardButton("≛ ᴏᴡɴᴇʀ", url="https://t.me/bot_owner26")
                 ],[
-                InlineKeyboardButton("✗ Cʟᴏꜱᴇ", callback_data = "close"),
-                InlineKeyboardButton("Developer", callback_data = "dev")
+                InlineKeyboardButton("« Bᴀᴄᴋ", callback_data = "start"),
+                InlineKeyboardButton("✗ Cʟᴏꜱᴇ", callback_data = "close")
             ]])            
-        )
-    elif data == "dev":
-        await query.message.edit_text(
-            text=Txt.DEV_TXT,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[
-                #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("≛ ᴏᴡɴᴇʀ", url="https://t.me/Illegal_Developer")
-                ],[
-                InlineKeyboardButton("🧐 ʀᴇᴘᴏʀᴛ ᴀʙᴜꜱᴇ", url="https://t.me/IllegalDeveloperBot")
-                ],[
-                InlineKeyboardButton("✗ Cʟᴏꜱᴇ", callback_data = "close"),
-                InlineKeyboardButton("« Bᴀᴄᴋ", callback_data = "start")
-            ]])          
         )
     elif data == "close":
         try:
