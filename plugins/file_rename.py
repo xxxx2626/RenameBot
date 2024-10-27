@@ -22,9 +22,10 @@ async def rename_start(client, message):
         return await client.send_message(message.from_user.id, text="Sᴏʀʀy Yᴏᴜ'ʀᴇ Bᴀɴɴᴇᴅ Tᴏ Uꜱᴇ Mᴇ")  
         
     file = getattr(message, message.media.value)
-    filename = file.file_name
-    filesize = humanize.naturalsize(file.file_size) 
-    fileid = file.file_id
+    filename = file.file_name  
+    if file.file_size > 2000 * 1024 * 1024:
+        return await message.reply_text("**ᴛʜɪs ʙᴏᴛ ɪs ɴᴏᴛ sᴜᴘᴘᴏʀᴛ 4ɢʙ ᴘʟᴇᴀsᴇ ᴜsᴇ ᴏᴜʀ ᴅᴇᴅɪᴄᴀᴛᴇᴅ 4ɢʙ ʙᴏᴛ ✨**")
+
     try:
         await message.reply_text(
             text=f"**__Pʟᴇᴀꜱᴇ Eɴᴛᴇʀ Nᴇᴡ Fɪʟᴇɴᴀᴍᴇ...__**\n\n**Oʟᴅ Fɪʟᴇ Nᴀᴍᴇ** :- `{filename}`",
