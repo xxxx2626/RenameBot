@@ -6,9 +6,9 @@ hachoir
 Pillow
 aiohttp
 pytz
+asyncio
 requests
 humanize
-pyromod
 ffmpeg-python
 Flask==1.1.2
 gunicorn==20.1.0
